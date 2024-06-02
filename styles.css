@@ -29,7 +29,7 @@ h1 {
 .box {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #fafafa;
+    background-color: #fffceb;
 }
 
 @media (max-width: 600px) {
