@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: inherit;
     padding: 0;
 }
 
@@ -29,7 +29,6 @@ h1 {
 .box {
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ddd;
     background-color: #fafafa;
 }
 
