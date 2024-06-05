@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: inherit;
+    margin: none;
     padding: 0;
 }
 
@@ -9,16 +9,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: ;
-    background-color: #fffceb;
+    min-height: 100vh;
+    background-color: #f0f0f0;
 }
 
 .container {
     width: 90%;
     max-width: 600px;
-    background-color: #fffceb;
-    padding: 10px;
+    background-color: #fff;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 h1 {
@@ -26,10 +27,38 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
 .box {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #fffceb;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.box.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.box.toc ul li {
+    margin-bottom: 10px;
+}
+
+.box.toc ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.box.toc ul li a:hover {
+    color: #007BFF;
 }
 
 @media (max-width: 600px) {
